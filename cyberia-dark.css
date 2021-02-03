@@ -12,6 +12,13 @@
   --rawblock-edit-panel-bd: #111;
   --search-select-text-color: #eee;
   --search-select-bg-color: #E80C68;
+  background: url(cyberia/lain/copland.png);
+  background-repeat: no-repeat;
+  /* background-size: 10%; */
+  background-size: 20%;
+  /* background-position: 50px 600px; */
+  background-position: 0px 700px;
+  background-color: #000;
 }
 
 ::selection {

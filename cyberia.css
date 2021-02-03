@@ -16,11 +16,14 @@
 
 :root {
   --side-bar-bg-color: white;
-  /* --active-file-bg-color: #7EE3BB; */
   --active-file-text-color: #222;
   --control-text-color: #222;
   --search-select-text-color: #eee;
   --search-select-bg-color: #E80C68;
+  /* background: url(cyberia/bg.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: 50px 600px; */
 }
 
 ::selection {
