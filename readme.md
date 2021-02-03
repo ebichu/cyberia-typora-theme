@@ -11,5 +11,5 @@ The png resources come from a fan-site [Wired Sound For Wired People](https://fa
 
 ## Install
 Download, and move files under `theme` folder into [Typora's Theme Folder](http:/theme.typora.io/doc/Install-Theme/).
-Or download the latest [release](https://github.com/xissshawww/dim_typora_theme/releases/), and extract contents into "Typora's Theme Folder".
+Or download the latest release, and extract contents into "Typora's Theme Folder".
 
