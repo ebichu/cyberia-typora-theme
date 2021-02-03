@@ -6,7 +6,7 @@
   --active-file-text-color: #111;
   --text-color: #ebebeb;
   --window-border: 1px solid #111;
-  --active-file-bg-color: rgba(252, 219, 241, 0.4);
+  --active-file-bg-color: #7EE3BB;
   --active-file-text-color: white;
   --control-text-color: #ccc;
   --rawblock-edit-panel-bd: #111;
@@ -123,7 +123,7 @@ h6,
 [mdlike='h4'],
 [mdlike='h5'],
 [mdlike='h6'] {
-  color: aquamarine;
+  color: #72FFC9;
 }
 h4,
 [mdlike='h4'] {
@@ -330,10 +330,10 @@ ul[cid] {
   list-style-type: none;
 }
 ul[cid] li:before {
-  content: "*";
-  margin-left: -3ch;
+  content: "Ⓐ";
+  margin-left: -2.5ch;
   position: absolute;
-  color: #6C930A;
+  color: #E80C68;
 }
 ul[data-mark="-"] > li:before {
   content: "-";
@@ -351,9 +351,8 @@ ol[cid] {
 ol[cid] > li:before {
   content: counter(item) ". ";
   counter-increment: item;
-  color: #6C930A;
-  /*margin-left: -2ch;*/
-  margin-left: -4ch;
+  color: #E80C68;
+  margin-left: -2.5ch;
   position: absolute;
 }
 .task-list-item input:before {
@@ -366,7 +365,7 @@ ol[cid] > li:before {
   vertical-align: middle;
   text-align: center;
   background-color: #222;
-  color: #6C930A;
+  color: #E80C68;
 }
 .task-list-item input:checked:before {
   content: '[x]';
@@ -375,11 +374,9 @@ ol[cid] > li:before {
   text-decoration: line-through;
 }
 blockquote {
-    /*background-color: rgba(128, 128, 128, 0.05);*/
-    /*border-top-right-radius: 5px;*/
     border-bottom-right-radius: 5px;
     padding: 8px 20px;
-    border-left: 4px solid #333;
+    border-left: 4px solid #7EE3BB;
     font-size: larger;
     font-style: italic;
 }
@@ -601,7 +598,7 @@ code {
     font-weight: bold;
 }
 mark {
-  background-color: aquamarine;
+  background-color: #72FFC9;
   color: black;
 }
 strong {
@@ -644,7 +641,7 @@ a {
   color: #5b808d;
 }
 #typora-source .cm-comment {
-  color: #caca16;
+  color: #A73172;
 }
 /*
  * Electron UI
@@ -838,7 +835,7 @@ titlebar {
 
 sup:hover {
     color: #333;
-    background-color: aquamarine;
+    background-color: #72FFC9;
 }
 
 /*footnote adaptable*/
@@ -851,7 +848,7 @@ sup:hover {
     content: '[';
     position: absolute;
     left: 0;
-    color: aquamarine;
+    color: #72FFC9;
 }
 
 .md-def-name::after {
@@ -859,7 +856,7 @@ sup:hover {
     content: ' ] :';
     position: initial; 
     right: 0;
-    color: aquamarine;
+    color: #72FFC9;
 }
 
 /*tooltip adapable*/
@@ -873,7 +870,7 @@ sup:hover {
     margin-top: -2px;
     line-height: 1.2em;
     text-align: center;
-    background-color: aquamarine;
+    background-color: #72FFC9;
     color: #222;
 }
 

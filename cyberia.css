@@ -325,10 +325,10 @@ ul[cid] {
   list-style-type: none;
 }
 ul[cid] li:before {
-  content: "*";
-  margin-left: -3ch;
+  content: "Ⓐ";
+  margin-left: -2.5ch;
   position: absolute;
-  color: #6C930A;
+  color: #E80C68;
 }
 ul[data-mark="-"] > li:before {
   content: "-";
@@ -346,8 +346,8 @@ ol[cid] {
 ol[cid] > li:before {
   content: counter(item) ". ";
   counter-increment: item;
-  color: #6C930A;
-  margin-left: -4ch;
+  color: #E80C68;
+  margin-left: -2.5ch;
   position: absolute;
 }
 .task-list-item input:before {
@@ -360,7 +360,7 @@ ol[cid] > li:before {
   vertical-align: middle;
   text-align: center;
   background-color: white;
-  color: #6C930A;
+  color: #E80C68;
 }
 .task-list-item input:checked:before {
   content: '[x]';
@@ -369,11 +369,11 @@ ol[cid] > li:before {
   text-decoration: line-through;
 }
 blockquote {
-  background-color: rgba(128, 128, 128, 0.05);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding: 0 20px;
-  border-left: 8px solid #333;
+	  border-bottom-right-radius: 5px;
+    padding: 8px 20px;
+    border-left: 4px dotted #333;
+    font-size: larger;
+    font-style: italic;
 }
 hr {
   position: relative;
