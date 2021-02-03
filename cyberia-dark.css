@@ -622,10 +622,6 @@ a {
   color: white;
   text-decoration: none;
 }
-/*.md-meta,
-.md-content {
-  display: inline;
-}*/
 #typora-source .cm-header {
   font-weight: bold;
   font-family: "PT Mono", monospace;
@@ -885,4 +881,10 @@ sup:hover {
     white-space: normal; 
     overflow-x: visible;
     overflow-y: hidden;
+}
+
+.md-url {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #9874B7;
 }

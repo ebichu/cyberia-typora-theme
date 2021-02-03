@@ -117,7 +117,7 @@ h6,
 [mdlike='h4'],
 [mdlike='h5'],
 [mdlike='h6'] {
-  color: #72FFC9;
+  color: #5b508d;
 }
 h4,
 [mdlike='h4'] {
@@ -125,7 +125,7 @@ h4,
 }
 h4:before,
 h4.md-focus:before {
-  content: "#### ";
+  content: "···· ";
 }
 h5,
 [mdlike='h5'] {
@@ -133,7 +133,7 @@ h5,
 }
 h5:before,
 h5.md-focus:before {
-  content: "##### ";
+  content: "····· ";
 }
 h6,
 [mdlike='h6'] {
@@ -141,7 +141,7 @@ h6,
 }
 h6:before,
 h6.md-focus:before {
-  content: "####### ";
+  content: "······ ";
 }
 /** override the default style for focused headings */
 h3.md-focus:before,
@@ -176,10 +176,14 @@ thead {
   text-align: left;
   vertical-align: bottom;
 }
+th {
+  background-color: peachpuff;
+}
 td,
 th {
-  border-left: 1px solid #cbcbcb;
-  border-width: 0 0 0 1px;
+  border-left: 2px solid peachpuff;
+  border-right: 2px solid peachpuff;
+  border-width: 2px;
   margin: 0;
   overflow: visible;
   padding: .5em 1em;
@@ -417,7 +421,7 @@ hr:after {
 .CodeMirror.cm-s-inner .CodeMirror-guttermarker,
 .CodeMirror.cm-s-inner .CodeMirror-guttermarker-subtle,
 .CodeMirror.cm-s-inner .CodeMirror-linenumber {
-  color: #537f7e;
+  color: #fff;
 }
 .CodeMirror.cm-s-inner .CodeMirror-cursor {
   border-left: 1px solid #f8f8f0;
@@ -472,7 +476,7 @@ hr:after {
   color: #80CBC4;
 }
 .CodeMirror.cm-s-inner .cm-comment {
-  color: #546E7A;
+  color: #fff;
 }
 .CodeMirror.cm-s-inner .cm-variable {
   color: #82B1FF;
@@ -558,7 +562,7 @@ strong {
   color: #E80C68;
 }
 em {
-  color: darkmagenta;
+  color: #9874B7;
 }
 a {
   color: #E80C68;
@@ -568,10 +572,6 @@ a {
   color: white;
   text-decoration: none;
 }
-/*.md-meta,
-.md-content {
-  display: inline;
-}*/
 #typora-source .cm-header {
   font-weight: bold;
   font-family: "PT Mono", monospace;
@@ -667,4 +667,12 @@ content {
     overflow-y: hidden;
 }
 
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote {
+  color: #E80C68;
+}
 
+.md-url {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #9874B7;
+}
