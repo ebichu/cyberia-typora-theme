@@ -1,5 +1,5 @@
 @include-when-export url(https://fonts.loli.net/css?family=Inconsolata:400,700&subset=latin-ext);
-/* latin-ext */
+/* 测试一下 */
 @font-face {
   font-family: 'Inconsolata';
   font-style: normal;
