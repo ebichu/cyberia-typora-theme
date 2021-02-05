@@ -356,7 +356,7 @@ ol[cid] > li:before {
   content: counter(item) ". ";
   counter-increment: item;
   color: #E80C68;
-  margin-left: -2.5ch;
+  margin-left: -3.5ch;
   position: absolute;
 }
 .task-list-item input:before {
