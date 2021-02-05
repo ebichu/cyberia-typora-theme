@@ -566,6 +566,8 @@ em {
 }
 a {
   color: #E80C68;
+  text-decoration: none;
+  border-bottom: 3px solid #E80C68;
 }
 #write a:hover {
   background-color: #E80C68;
