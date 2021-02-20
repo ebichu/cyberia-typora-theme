@@ -4,14 +4,14 @@
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 400;
-  src: local('Inconsolata Regular'), url(monospace/Inconsolata-Regular.ttf) format('truetype');
+  src: local('Inconsolata Regular'), url(cyberia/Inconsolata-Regular.ttf) format('truetype');
 }
 /* latin */
 @font-face {
   font-family: 'Inconsolata';
   font-style: normal;
   font-weight: 700;
-  src: local('Inconsolata Bold'), url(monospace/Inconsolata-Bold.ttf) format('truetype');
+  src: local('Inconsolata Bold'), url(cyberia/Inconsolata-Bold.ttf) format('truetype');
 }
 
 :root {
